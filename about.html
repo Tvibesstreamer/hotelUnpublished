@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | unpublished Hotel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: {
+                            50: '#FDFBF9',
+                            100: '#FAF6F0',
+                            200: '#F4EAE1',
+                        },
+                        wood: {
+                            800: '#4A3728',
+                            900: '#2C1A11',
+                            950: '#1F120A',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-cream-50 text-wood-900 font-sans antialiased selection:bg-wood-800 selection:text-cream-50">
+
+    <nav class="fixed top-0 left-0 w-full z-50 bg-wood-900/90 backdrop-blur-md border-b border-wood-800/50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold tracking-widest text-cream-100 uppercase">
+                        unpublished<span class="text-amber-600">.</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="index.html" class="text-cream-200/80 hover:text-cream-100 text-sm font-medium tracking-wider uppercase transition">Home</a>
+                    <a href="about.html" class="text-cream-100 hover:text-amber-500 text-sm font-medium tracking-wider uppercase transition">About</a>
+                    <a href="contact.html" class="text-cream-200/80 hover:text-cream-100 text-sm font-medium tracking-wider uppercase transition">Contact</a>
+                </div>
+                <div>
+                    <a href="https://booking-engine-placeholder-link.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-sm font-semibold tracking-wider uppercase rounded-none text-wood-900 bg-cream-100 hover:bg-amber-500 hover:text-wood-900 transition-all duration-300 shadow-lg">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative pt-40 pb-24 bg-wood-950 text-cream-50 text-center">
+        <div class="absolute inset-0 opacity-20">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80" alt="Woodlands background" class="w-full h-full object-cover">
+        </div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4">
+            <h1 class="text-4xl sm:text-5xl font-bold uppercase tracking-tight mb-4">Our Hidden Story</h1>
+            <p class="text-lg text-cream-200/80 max-w-2xl mx-auto">Discover the foundational concepts behind our warm, relaxing sanctuary.</p>
+        </div>
+    </section>
+
+    <section class="py-24 bg-cream-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+            <h2 class="text-3xl font-bold text-wood-900 mb-6">Grounded Roots, Elegant Spaces</h2>
+            <p class="text-wood-800/80 text-lg leading-relaxed mb-6">
+                Founded with a distinct architectural concept in mind, <strong>unpublished</strong> was built from natural timber structures and local stone matrices. Our primary intent was to generate an alternative destination environment that satisfies luxury seekers while operating affordably and efficiently for business professionals or traveling families.
+            </p>
+            <p class="text-wood-800/80 text-lg leading-relaxed mb-12">
+                We maintain an absolute balance with nature, incorporating completely localized water filtration frameworks and eco-friendly structural updates. When you step foot onto our sanctuary grounds, your schedule slows down down to match the rustic, peaceful rhythmic flow of the forest valleys.
+            </p>
+            
+            <div class="border-t border-wood-800/10 pt-16">
+                <h3 class="text-2xl font-bold text-wood-900 mb-12 text-center">The Stewardship Team</h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <div class="w-32 h-32 rounded-full mx-auto bg-wood-800 mb-4 overflow-hidden shadow-md">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&h=400&q=80" alt="Clara Sterling" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-bold text-wood-900 text-lg">Clara Sterling</h4>
+                        <span class="text-sm text-amber-700 block">General Manager</span>
+                    </div>
+                    <div>
+                        <div class="w-32 h-32 rounded-full mx-auto bg-wood-800 mb-4 overflow-hidden shadow-md">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&h=400&q=80" alt="Chef Raymond Laurent" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-bold text-wood-900 text-lg">Raymond Laurent</h4>
+                        <span class="text-sm text-amber-700 block">Head Chef</span>
+                    </div>
+                    <div>
+                        <div class="w-32 h-32 rounded-full mx-auto bg-wood-800 mb-4 overflow-hidden shadow-md">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&h=400&q=80" alt="Julian Cross" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="font-bold text-wood-900 text-lg">Julian Cross</h4>
+                        <span class="text-sm text-amber-700 block">Guest Relations Lead</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-wood-950 text-cream-200/60 py-12 border-t border-wood-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:flex sm:justify-between sm:items-center">
+            <p class="text-sm tracking-wide">&copy; 2026 unpublished Hotel Resort. All rights reserved.</p>
+            <div class="mt-4 sm:mt-0 flex justify-center space-x-6 text-sm">
+                <a href="index.html" class="hover:text-cream-50 transition">Home</a>
+                <a href="about.html" class="hover:text-cream-50 transition">About</a>
+                <a href="contact.html" class="hover:text-cream-50 transition">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
